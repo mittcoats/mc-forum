@@ -56,10 +56,12 @@ body {
 	background: $color2;
 	#logo {
 		float: left;
-		p {
+		a {
 			text-transform: uppercase;
 			letter-spacing: 2px;
 			font-size: 1.3rem;	
+			text-decoration: none;
+			color: $color5;
 		}
 	}
 	#buttons {
@@ -69,7 +71,7 @@ body {
 			padding: .5em 1em;
 			border-radius: 5px;
 			background: $color3;
-			color: $color1;
+			color: $color5;
 			text-decoration: none;
 		}
 	}
