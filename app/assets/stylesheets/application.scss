@@ -100,4 +100,22 @@ body {
 	}
 }
 
+#post_content {
+	background: $color2;
+	padding: 2em 5%;
+	border-radius: .5em;
+	h1 {
+		font-weight: 100;
+		font-size: 2em;
+		color: $color5;
+		margin-top: 0;
+	}
+	p {
+		color: $color4;
+		font-size: 0.9rem;
+		line-height: 1.5;
+		font-weight: 100;
+	}
+}
+
 
